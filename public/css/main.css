@@ -1,9 +1,14 @@
 *{
    /* border: 1px solid black;  */
-   font-family:'Open Sans',sans-serif ; 
+   font-family: 'Roboto', sans-serif;
    font-size: 1.2rem;
-   scroll-margin-top: 118px; 
+   scroll-margin-top: 108px; 
 } 
+
+body {
+    /* background-color: rgb(240,240,241); */
+    background-color: rgb(246, 246, 248);
+}
 
 :root {
     --side_color: darkorchid;
@@ -30,6 +35,28 @@ h2 {
     color:  var(--side_color);
 }
 
+
+/* Buttons */
+
+.btn-primary,
+.btn-danger,
+.btn-warning,
+.btn-success {
+ --bs-btn-focus-shadow-rgb: none ;
+}
+
+#skills-text {
+    display: none;
+}
+
+#skills-icons a {
+    text-decoration: none;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
 footer {
     padding: 0.5% 0;
     margin-bottom: 0;
@@ -41,7 +68,6 @@ footer a {
     text-decoration: none;
     color : white;
 }
-
 
 
 
