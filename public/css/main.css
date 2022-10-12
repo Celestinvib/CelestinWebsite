@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-    --side_color: darkorchid;
+    --side_color: royalblue;
   }
 
 #logo {
@@ -69,5 +69,24 @@ footer a {
     color : white;
 }
 
+.col-profile {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #profilePhotoCircle {
+        width: 300px;
+       }
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        width: 20rem;
+    }
+
+    .card img {
+        height: 9rem;
+    }
+}
 
 
